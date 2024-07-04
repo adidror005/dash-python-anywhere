@@ -8,8 +8,9 @@ pip install -r requirements.txt
 
 ### 2. COPY + PASTE WSGI CONFIG FILE 
 
-import sys
 ```
+import sys
+
 # add your project directory to the sys.path
 project_home = u'/home/trademamba/dash'
 if project_home not in sys.path:
